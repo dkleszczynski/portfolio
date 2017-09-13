@@ -9,6 +9,10 @@ p {
 }
 
 /*General section*/
+.glass-background {
+  background:rgba(255,255,255,0.2);
+}
+
 .jumbotron {
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -16,6 +20,10 @@ p {
 	min-height:100vh;
 	margin:0px;
 	padding:0rem 1.5rem;
+}
+
+.header-text {
+	color:#cccccc;
 }
 	
 .vertical-center {
@@ -50,12 +58,16 @@ p {
 	background-image:url("img/title-background.png");
 }
 
+#title, #title-proverb {
+	color:#6600ff;
+}
+
 #title {
 	font:bold 3.5rem Arial;
 }
 
 #title-proverb {
-	font:bold 2.5rem 'Indie Flower';
+	font:bold 2.5rem 'Indie Flower', Tahoma;
 }
 
 /*Portfolio section*/
@@ -67,6 +79,11 @@ p {
 	font-size:0.9rem;
 	margin:0px;
 	padding:0px;
+}
+
+.empty-tile {
+	background:white;
+	opacity:0.3;
 }
 
 /*AboutMe section*/			
