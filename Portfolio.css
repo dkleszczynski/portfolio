@@ -1,127 +1,129 @@
 body {
 	/*Makes navbar not cover content before scrolling*/
-	padding-top:2rem;
+	padding-top: 2rem;
 }
 
 p {
-	font:1.5rem Tahoma;
-	color:black;
+	font: 1.5rem Tahoma;
+	color: black;
 }
 
 /*General section*/
 .glass-background {
-  background:rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.2);
 }
 
 .jumbotron {
-	background-repeat:no-repeat;
-	background-size:cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 	
-	min-height:100vh;
-	margin:0px;
-	padding:0rem 1.5rem;
+	min-height: 100vh;
+	margin: 0px;
+	padding: 0rem 1.5rem;
 }
 
 .header-text {
-	color:#cccccc;
+	color: #991f00;
+	background-color: gold;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 2px;
 }
 	
 .vertical-center {
-	align-items:center;
-	display:flex;
-	position:relative;
+	align-items: center;
+	display: flex;
+	position: relative;
 }
 
 .header-position {
-	position:absolute;
-	top:2%;
+	position: absolute;
+	top: 2%;
 }
 
 /*Navbar section*/
 .navbar-custom {
-	background:radial-gradient(#5b9b47 0%, #31a80d 100%);
-	border:1px solid black;
-	font:bold 1.3rem Tahoma;
-	height:2rem;
-	overflow:hidden;
+	background: radial-gradient(#5b9b47 0%, #31a80d 100%);
+	border: 1px solid black;
+	font: bold 1.3rem Tahoma;
+	height: 2rem;
+	overflow: hidden;
 }
 
 .nav-item {
-	border-left:1px solid black;
-	border-right:1px solid black;
-	margin:0px;
-	padding:0px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin: 0px;
+	padding: 0px;
 }
 
 /*Title section*/
 .title-section {
-	background-image:url("img/title-background.png");
+	background-image: url("img/title-background.png");
 }
 
 #title, #title-proverb {
-	color:#6600ff;
+	color: #6600ff;
 }
 
 #title {
-	font:bold 3.5rem Arial;
+	font: bold 3.5rem Arial;
 }
 
 #title-proverb {
-	font:bold 2.5rem 'Indie Flower', Tahoma;
+	font: bold 2.5rem 'Indie Flower', Tahoma;
 }
 
 /*Portfolio section*/
 .portfolio-section {
-	background-image:url("img/mountain.png");
+	background-image: url("img/mountain.png");
 }
 
 .project-label {
-	font-size:0.9rem;
-	margin:0px;
-	padding:0px;
+	font-weight: bold;
+	font-size: 0.9rem;
+	margin: 0px;
+	padding: 0px;
 }
 
 .empty-tile {
-	background:white;
-	opacity:0.3;
+	background: white;
+	opacity: 0.3;
 }
 
 /*AboutMe section*/			
 .about-me-section {
-	background-image:url("img/sky-background.png");
+	background-image: url("img/sky-background.png");
 }
 
 /*Contact section*/
 .contact-section {
-	background-image:url("img/nature.png");	
-	position:relative;
+	background-image: url("img/nature.png");	
+	position: relative;
 }
 
 .button-custom{
-	box-shadow:1px 2px 2px #000;
+	box-shadow: 1px 2px 2px #000;
 }
 
 .button-custom:active {
-	transform:translateY(5px);
+	transform: translateY(5px);
 }
 
 .button-custom:hover {
-	opacity:0.85;
+	opacity: 0.85;
 }
 
 .rounded {
-	border:2px solid black;
-	margin:0px;
+	border: 2px solid black;
+	margin: 0px;
 }
 
 .footer {
-	font-size:1.2rem;
+	font-size: 1.2rem;
 }
 
 #contact-content {
-	height:100vh;
+	height: 100vh;
 }
-
-
-
 				
