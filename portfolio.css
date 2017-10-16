@@ -59,7 +59,7 @@ p {
 
 /*Title section*/
 .title-section {
-	background-image: url("img/title-background.png");
+	background-image: url("img/title_background.png");
 }
 
 #title, #title-proverb {
@@ -93,7 +93,7 @@ p {
 
 /*AboutMe section*/			
 .about-me-section {
-	background-image: url("img/sky-background.png");
+	background-image: url("img/sky_background.png");
 }
 
 /*Contact section*/
